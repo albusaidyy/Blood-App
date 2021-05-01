@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Blood App</string>
+    <string name="login">LogIn</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="create_a_new_account">Create A New Seeker or Donor Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="address">Address</string>
+    <string name="enter_contact">Contact</string>
+    <string name="choose_gender">Choose Gender:</string>
+    <string name="select_blood_type">Select Blood Type:</string>
+    <string name="select_user_type">Select User Type:</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="signup">Signup</string>
+    <string name="or">OR</string>
+    <string name="register_as_a_blood_bank">Register as A Blood Bank</string>
+    <string name="already_have_an_account_sign_in">Already Have an Account? Sign In</string>
+    <string name="bank_name">Blood Bank Name</string>
+    <string name="register_as_a_user_donor">Register as A User/Donor</string>
+    <string name="create_a_new_blood_bank_account">Create A New Blood Bank Account</string>
+
+
+    <string-array name="gender_array_reg">
+        <item>---------></item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="user_array_login">
+        <item>---------></item>
+        <item>Seeker</item>
+        <item>Donor</item>
+        <item>Blood Bank</item>
+    </string-array>
+
+    <string-array name="user_array_reg">
+        <item>---------></item>
+        <item>Seeker</item>
+        <item>Donor</item>
+    </string-array>
+
+    <string-array name="blood_array">
+        <item>---------></item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+
+    </string-array>
+
+    <string-array name="status_array">
+        <item>Available</item>
+        <item>Not Available</item>
+    </string-array>
+
+
+</resources>

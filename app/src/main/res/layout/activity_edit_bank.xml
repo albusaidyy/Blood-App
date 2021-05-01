@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditBankAcitivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/red_light"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Enter desired Number of Bags to make Available"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/white" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="A+"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                    <EditText
+                        android:id="@+id/edit_bank_bloodTypeAP"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:digits="1234567890"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:padding="5dp"
+                        android:selectAllOnFocus="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="A-"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+
+                        />
+
+                    <EditText
+                        android:id="@+id/edit_bank_bloodTypeAN"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:digits="1234567890"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:padding="5dp"
+                        android:selectAllOnFocus="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="B+"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                    <EditText
+                        android:id="@+id/edit_bank_bloodTypeBP"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:digits="1234567890"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:padding="5dp"
+                        android:selectAllOnFocus="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="B-"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                    <EditText
+                        android:id="@+id/edit_bank_bloodTypeBN"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:digits="1234567890"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:padding="5dp"
+                        android:selectAllOnFocus="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="AB+"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                    <EditText
+                        android:id="@+id/edit_bank_bloodTypeABP"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:digits="1234567890"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:padding="5dp"
+                        android:selectAllOnFocus="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="AB-"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                    <EditText
+                        android:id="@+id/edit_bank_bloodTypeABN"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:digits="1234567890"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:padding="5dp"
+                        android:selectAllOnFocus="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="O+"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                    <EditText
+                        android:id="@+id/edit_bank_bloodTypeOP"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:digits="1234567890"
+                        android:gravity="center"
+                        android:imeOptions="actionNext"
+                        android:inputType="number"
+                        android:padding="5dp"
+                        android:selectAllOnFocus="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="O-"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                    <EditText
+                        android:id="@+id/edit_bank_bloodTypeON"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="1dp"
+                        android:digits="1234567890"
+                        android:gravity="center"
+                        android:imeOptions="actionDone"
+                        android:inputType="number"
+                        android:padding="5dp"
+                        android:selectAllOnFocus="true"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/save_bank_stock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_corner"
+            android:text="save"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
