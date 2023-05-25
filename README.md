@@ -21,7 +21,7 @@ To run a demo:
    1. Clone the Repo
    2. Using Android studio open and build the project
    3. Run the app on an Emulator or a physical device
-   4. Thats it, enjoy the App and create your own users
+   4. Thats it, enjoy the App and **create your own users**
 
 Sample of screenshots
 
