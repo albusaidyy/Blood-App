@@ -27,7 +27,7 @@ To run a demo:
 Sample of screenshots
 
 <kbd> 
-<img src="https://github.com/albusaidyy/Blood-App/tree/master/assets/screen_shots/1.jpg" alt="Sample App image" width="300" >
+<img src="https://github.com/albusaidyy/Blood-App/blob/master/assets/screen_shots/1.png" alt="Sample App image" width="300" >
 </kbd>
 
 More can be found [here](/assets/screen_shots/)
