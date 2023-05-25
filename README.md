@@ -18,17 +18,19 @@ This App was built to ease the search for blood.
 
 # Demo
 To run a demo:
-
-    1. Clone the Repo
-    2. Using Android studio open and build the project
-    3. Run the app on an Emulator or a physical device
-    4. Thats it, enjoy the App and create your own users
+   1. Clone the Repo
+   2. Using Android studio open and build the project
+   3. Run the app on an Emulator or a physical device
+   4. Thats it, enjoy the App and create your own users
 
 Sample of screenshots
 
 <kbd> 
 <img src="https://github.com/albusaidyy/Blood-App/blob/master/assets/screen_shots/blood_seeker/1.png" alt="Sample App image" width="300" >
 </kbd>
+
+<br>
+<br>
 
 More can be found [here](/assets/screen_shots/)
 
